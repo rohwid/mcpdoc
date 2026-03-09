@@ -9,7 +9,7 @@
         "/Users/rohwid/GitHub/mcpdoc",
         "mcpdoc",
         "--urls",
-        "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt",
+        "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt MCP:https://modelcontextprotocol.io/llms.txt",
         "--transport",
         "stdio"
       ]

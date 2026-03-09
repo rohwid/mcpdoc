@@ -18,6 +18,7 @@ You can find llms.txt files for langgraph and langchain here:
 | LangGraph JS     | [https://langchain-ai.github.io/langgraphjs/llms.txt](https://langchain-ai.github.io/langgraphjs/llms.txt) |
 | LangChain Python | [https://python.langchain.com/llms.txt](https://python.langchain.com/llms.txt)                             |
 | LangChain JS     | [https://js.langchain.com/llms.txt](https://js.langchain.com/llms.txt)                                     |
+| MCP              | [https://modelcontextprotocol.io/llms.txt](https://modelcontextprotocol.io/llms.txt)                       |
 
 ## Quickstart
 
@@ -48,7 +49,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 #### (Optional) Test the MCP server locally with your `llms.txt` file(s) of choice:
 ```bash
 uvx --from mcpdoc mcpdoc \
-    --urls "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt" "LangChain:https://python.langchain.com/llms.txt" \
+    --urls "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt" "MCP:https://modelcontextprotocol.io/llms.txt" \
     --transport sse \
     --port 8082 \
     --host localhost
@@ -86,7 +87,7 @@ npx @modelcontextprotocol/inspector
         "mcpdoc",
         "mcpdoc",
         "--urls",
-        "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt LangChain:https://python.langchain.com/llms.txt",
+        "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt MCP:https://modelcontextprotocol.io/llms.txt",
         "--transport",
         "stdio"
       ]

@@ -2,5 +2,9 @@
   {
     "name": "LangGraph Python",
     "llms_txt": "https://langchain-ai.github.io/langgraph/llms.txt"
+  },
+  {
+    "name": "MCP Documentation",
+    "llms_txt": "https://modelcontextprotocol.io/llms.txt"
   }
 ]

@@ -2,3 +2,5 @@
 # Each entry must have a llms_txt URL and optionally a name
 - name: LangGraph Python
   llms_txt: https://langchain-ai.github.io/langgraph/llms.txt
+- name: MCP Documentation
+  llms_txt: https://modelcontextprotocol.io/llms.txt
