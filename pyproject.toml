@@ -14,6 +14,8 @@ dependencies = [
 
 [project.scripts]
 mcpdoc = "mcpdoc.cli:main"
+mcp-docs = "mcpdoc.mcp_server:main"
+langgraph-docs = "mcpdoc.langgraph:main"
 
 [dependency-groups]
 test = [

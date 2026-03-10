@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "langgraph-docs-mcp": {
+    "langgraph-docs": {
       "command": "/Users/rohwid/.local/bin/uvx",
       "args": [
         "--python",
@@ -9,7 +9,21 @@
         "/Users/rohwid/GitHub/mcpdoc",
         "mcpdoc",
         "--urls",
-        "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt MCP:https://modelcontextprotocol.io/llms.txt",
+        "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt",
+        "--transport",
+        "stdio"
+      ]
+    },
+    "mcp-docs": {
+      "command": "/Users/rohwid/.local/bin/uvx",
+      "args": [
+        "--python",
+        "/Users/rohwid/GitHub/mcpdoc/.venv/bin/python",
+        "--from",
+        "/Users/rohwid/GitHub/mcpdoc",
+        "mcpdoc",
+        "--urls",
+        "MCP:https://modelcontextprotocol.io/llms.txt",
         "--transport",
         "stdio"
       ]

@@ -45,5 +45,9 @@ async def get_docs(url: str = "overview") -> str:
         return "Encountered an error while fetching the URL."
 
 
-if __name__ == "__main__":
+def main():
     server.run(transport="stdio")
+
+
+if __name__ == "__main__":
+    main()
